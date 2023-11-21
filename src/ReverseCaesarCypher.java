@@ -13,7 +13,6 @@ public class ReverseCaesarCypher {
 
             if(Character.isLowerCase(strToChar[i])){
                 int letterValue = (((strToChar[i]-key)-97));
-                System.out.println("Value of lettervalue for "+ strToChar[i]+ " is "+letterValue);
                 char asciiToChar = (char) letterValue;
                 //formula for decription Dn (x) = (xi - n) mod 26
                 //If any case (Dn) value becomes negative (-ve), in this case, we will add 26 in the negative value.

@@ -26,8 +26,8 @@ public class Main {
         System.out.println("Deciphered Text is "+decipher);
         scanner.close();
 
-        //HackCaesar myHack = new HackCaesar();
-        //myHack.hack(myText);
+        HackCaesar myHack = new HackCaesar();
+        myHack.hack(cipherText);
     }
 
 
